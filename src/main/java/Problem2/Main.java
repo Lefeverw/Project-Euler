@@ -7,7 +7,12 @@ import java.util.stream.IntStream;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println(IntStream.generate(new FibonacciSupplier()).limit(45).filter(new DoesNotExceedNumber(4000000)).filter(new isEven()).sum());
+        int sum = IntStream.generate(new FibonacciSupplier())
+                .limit(45)
+                .filter(new DoesNotExceedNumber(4000000))
+                .filter(new isEven())
+                .sum();
+        System.out.println(sum);
     }
 
 
