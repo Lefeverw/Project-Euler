@@ -5,7 +5,7 @@ import java.util.stream.IntStream;
 /**
  * @author lefeverw
  */
-public class Main {
+public class MainProblem8 {
     public static void main(String[] args) {
         String text = getText();
         int index = 13;

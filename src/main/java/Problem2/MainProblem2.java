@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 /**
  * @author lefeverw
  */
-public class Main {
+public class MainProblem2 {
     public static void main(String[] args) {
         int sum = IntStream.generate(new FibonacciSupplier())
                 .limit(45)

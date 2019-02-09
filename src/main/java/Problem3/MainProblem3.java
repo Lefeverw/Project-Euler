@@ -9,7 +9,7 @@ import java.util.stream.IntStream;
 /**
  * @author lefeverw
  */
-public class Main {
+public class MainProblem3 {
     public static void main(String[] args) {
         BigDecimal number = new BigDecimal("600851475143");
         System.out.println(IntStream.range(2, (int) Math.ceil(Math.sqrt(number.longValue())))
