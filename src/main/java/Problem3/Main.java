@@ -11,11 +11,11 @@ import java.util.stream.IntStream;
  */
 public class Main {
     public static void main(String[] args) {
-        BigDecimal number = new BigDecimal("13195");
-        IntStream.range(2, (int) Math.sqrt(number.longValue()))
+        BigDecimal number = new BigDecimal("600851475143");
+        System.out.println(IntStream.range(2, (int) Math.ceil(Math.sqrt(number.longValue())))
                 .filter(new isDevisor(number.longValue()))
                 .filter(new isPrime())
-                .forEach(System.out::println);
+                .max().getAsInt());
     }
 
 }
