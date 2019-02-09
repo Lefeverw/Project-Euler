@@ -1,5 +1,7 @@
 package Problem4;
 
+import utilities.isPalindrome;
+
 import java.util.function.IntUnaryOperator;
 import java.util.stream.IntStream;
 

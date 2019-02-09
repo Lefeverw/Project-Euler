@@ -2,10 +2,9 @@ package Problem4;
 
 import org.junit.Assert;
 import org.junit.Test;
+import utilities.isPalindrome;
 
 import java.util.stream.IntStream;
-
-import static org.junit.Assert.*;
 
 /**
  * @author lefeverw

@@ -1,4 +1,4 @@
-package Problem3;
+package utilities;
 
 import java.util.function.IntPredicate;
 import java.util.stream.IntStream;
@@ -9,6 +9,8 @@ import java.util.stream.IntStream;
 public class isPrime implements IntPredicate {
     @Override
     public boolean test(int value) {
-       return  !IntStream.range(2,(int)Math.ceil(Math.sqrt(value))).anyMatch(new isDevisor(value));
+        if(value ==2)
+            return true;
+       return  !IntStream.range(2,(int)Math.ceil(Math.sqrt(value))+1).anyMatch(new isDevisor(value));
     }
 }

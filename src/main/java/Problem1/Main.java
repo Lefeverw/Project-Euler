@@ -1,12 +1,9 @@
 package Problem1;
 
-import com.google.common.collect.Lists;
-
-import java.util.ArrayList;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import static Problem1.MultiplePredicate.isMultiple;
+import static utilities.MultiplePredicate.isMultiple;
 
 /**
  * @author lefeverw

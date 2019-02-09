@@ -1,9 +1,9 @@
 package Problem3;
 
-import com.google.common.collect.Lists;
+import utilities.isDevisor;
+import utilities.isPrime;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.stream.IntStream;
 
 /**

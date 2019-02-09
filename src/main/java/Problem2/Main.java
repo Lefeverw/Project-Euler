@@ -1,5 +1,9 @@
 package Problem2;
 
+import utilities.DoesNotExceedNumber;
+import utilities.FibonacciSupplier;
+import utilities.isEven;
+
 import java.util.stream.IntStream;
 
 /**

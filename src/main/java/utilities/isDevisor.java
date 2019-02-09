@@ -1,4 +1,4 @@
-package Problem3;
+package utilities;
 
 import java.util.function.IntPredicate;
 
