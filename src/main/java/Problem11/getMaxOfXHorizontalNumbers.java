@@ -15,6 +15,8 @@ public class getMaxOfXHorizontalNumbers implements Function<int[], Integer> {
 
     @Override
     public Integer apply(int[] ints) {
+        if(ints.length<index)
+            return 0;
         return IntStream.rangeClosed(0,ints.length-index).map(new GetProduct(ints, index)).max().getAsInt();
     }
 }

@@ -12,7 +12,7 @@ public class isDevisorLong implements LongPredicate {
     }
 
     @Override
-    public boolean test(long value) {
-        return this.value%value == 0;
+    public boolean test(long devisor) {
+        return this.value%devisor == 0;
     }
 }

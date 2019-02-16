@@ -17,5 +17,8 @@ public class MainProblem10 {
         start = System.currentTimeMillis();
         System.out.println(LongStream.range(2, limit).filter(new isPrimeLong()).sum());
         System.out.println((System.currentTimeMillis()-start)/1000.);
+        start = System.currentTimeMillis();
+        System.out.println(LongStream.range(2, limit).parallel().filter(new isPrimeLong()).sum());
+        System.out.println((System.currentTimeMillis()-start)/1000.);
     }
 }

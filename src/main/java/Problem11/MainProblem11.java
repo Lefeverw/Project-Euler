@@ -14,59 +14,16 @@ import java.util.stream.IntStream;
  */
 public class MainProblem11 {
 
-    //TODO Refactor Seriously
     public static void main(String[] args) throws IOException {
         int[][] matrix = readMatrix("C:\\Users\\lefeverw\\Documents\\GitHub\\Project-Euler\\src\\main\\java\\Problem11\\matrix.csv");
-        Arrays.stream(matrix).map(new getMaxOfXHorizontalNumbers(4)).mapToInt(Integer::intValue).max().getAsInt();
         int MaxHorizontalDirection = Arrays.stream(matrix).map(new getMaxOfXHorizontalNumbers(4)).mapToInt(Integer::intValue).max().getAsInt();
-        int[][] matrixTransposed = transposeMatrix(matrix);
-        int MaxVerticalDirection = Arrays.stream(matrixTransposed).map(new getMaxOfXHorizontalNumbers(4)).mapToInt(Integer::intValue).max().getAsInt();
-        System.out.println(IntStream.range(0, matrix.length).map(value -> {
-            int[] line = getMatrixDiagonalUpperHalf(matrix, value);
-            //            Arrays.stream(line).forEach(x->System.out.print(x+"\t"));
-            //            System.out.println();
-            if (line.length >= 4) {
-                getMaxOfXHorizontalNumbers max = new getMaxOfXHorizontalNumbers(4);
-                return max.apply(line);
-            }
-            return 0;
-        }).max().getAsInt());
-
-        System.out.println(IntStream.range(0, matrix.length).map(value -> {
-            int[] line = getMatrixDiagonalLowerHalf(matrix, value);
-//            Arrays.stream(line).forEach(x->System.out.print(x+"\t"));
-//            System.out.println();
-            if (line.length >= 4) {
-                getMaxOfXHorizontalNumbers max = new getMaxOfXHorizontalNumbers(4);
-                return max.apply(line);
-            }
-            return 0;
-        }).max().getAsInt());
-
-        System.out.println(IntStream.range(0, matrix.length).map(value -> {
-            int[] line = getMatrixOverDiagonalLowerHalf(matrix, value);
-//            Arrays.stream(line).forEach(x->System.out.print(x+"\t"));
-//            System.out.println();
-            if (line.length >= 4) {
-                getMaxOfXHorizontalNumbers max = new getMaxOfXHorizontalNumbers(4);
-                return max.apply(line);
-            }
-            return 0;
-        }).max().getAsInt());
-
-        System.out.println(IntStream.range(0, matrix.length).map(value -> {
-            int[] line = getMatrixOverDiagonalUpperHalf(matrix, value);
-//            Arrays.stream(line).forEach(x->System.out.print(x+"\t"));
-//            System.out.println();
-            if (line.length >= 4) {
-                getMaxOfXHorizontalNumbers max = new getMaxOfXHorizontalNumbers(4);
-                return max.apply(line);
-            }
-            return 0;
-        }).max().getAsInt());
-
-
-        System.out.printf("%s\t%s", MaxHorizontalDirection, MaxVerticalDirection);
+        int MaxVerticalDirection = Arrays.stream(transposeMatrix(matrix)).map(new getMaxOfXHorizontalNumbers(4)).mapToInt(Integer::intValue).max().getAsInt();
+        System.out.println(IntStream.range(0, matrix.length).map(value -> new getMaxOfXHorizontalNumbers(4).apply(getMatrixDiagonalUpperHalf(matrix,value))).max().getAsInt());
+        System.out.println(IntStream.range(0, matrix.length).map(value -> new getMaxOfXHorizontalNumbers(4).apply(getMatrixDiagonalLowerHalf(matrix, value))).max().getAsInt());
+        System.out.println(IntStream.range(0, matrix.length).map(value -> new getMaxOfXHorizontalNumbers(4).apply(getMatrixOverDiagonalLowerHalf(matrix, value))).max().getAsInt());
+        System.out.println(IntStream.range(0, matrix.length).map(value -> new getMaxOfXHorizontalNumbers(4).apply(getMatrixOverDiagonalUpperHalf(matrix, value))).max().getAsInt());
+        System.out.println(MaxHorizontalDirection);
+        System.out.println(MaxVerticalDirection);
     }
 
     private static int[] getMatrixOverDiagonalUpperHalf(int[][] matrix, int value) {
