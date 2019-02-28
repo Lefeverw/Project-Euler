@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0acf0afd-f41d-4462-91ed-af852fa337fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Problem21/MainProblem21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Problem21/explanation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Problem22/MainProblem22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Problem22/explanation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Problem23/MainProblem23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Problem23/explanation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Problem23/isAbundant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Problem23/isNotSumOf2Abundants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/isEvenLong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Problem20/MainProblem20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Problem20/MainProblem20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Problem22/MainProblem22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Problem22/MainProblem22.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,6 +24,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Problem22/MainProblem22.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Problem23/explanation.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="101" selection-start-line="6" selection-start-column="101" selection-end-line="6" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Problem23/MainProblem23.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/isEvenLong.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Problem23/isNotSumOf2Abundants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Problem23/isAbundant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Problem21/MainProblem21.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -34,32 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Problem22/MainProblem22.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Problem22/names.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utilities/isDevisorLong.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Problem22/explanation.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+            <state relative-caret-position="153">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -80,6 +127,8 @@
       <find>\n</find>
       <find>add</find>
       <find>reduc</find>
+      <find>MainProblem22</find>
+      <find>MainProblem21</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,12 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Problem9/isSum1000Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Problem9/MainProblem9.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Problem10/explanation.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/PrimeSupplierBelowInteger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utilities/isPrime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Problem10/isPrimeLong.java" />
         <option value="$PROJECT_DIR$/src/main/java/utilities/isPrimeLong.java" />
         <option value="$PROJECT_DIR$/src/main/java/Problem11/explanation.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Problem11/matrix.csv" />
@@ -139,6 +182,12 @@
         <option value="$PROJECT_DIR$/src/main/java/Problem21/MainProblem21.java" />
         <option value="$PROJECT_DIR$/src/main/java/Problem22/explanation.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Problem22/MainProblem22.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Problem23/explanation.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Problem23/isSumOf2Abundants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utilities/isEvenLong.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Problem23/isNotSumOf2Abundants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Problem23/isAbundant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Problem23/MainProblem23.java" />
       </list>
     </option>
   </component>
@@ -162,7 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,6 +222,11 @@
             <path>
               <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project-Euler" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Euler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,14 +241,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Euler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem20" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
@@ -210,46 +256,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Problem23" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Project-Euler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Euler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Euler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Euler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Euler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Problem11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551115863955" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551384483171" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -272,18 +297,18 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lefeverw\Documents\GitHub\Project-Euler\src\main\java\Problem67" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="utilities" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lefeverw\Documents\GitHub\Project-Euler\src\main\java\Problem67" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Problem23" />
       <recent name="Problem18" />
       <recent name="Problem14" />
       <recent name="Problem12" />
       <recent name="Problem11" />
-      <recent name="utilities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainProblem22">
+  <component name="RunManager" selected="Application.MainProblem23">
     <configuration name="MainProblem19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Problem19.MainProblem19" />
       <module name="Project-Euler" />
@@ -351,12 +376,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProblem67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Problem67.MainProblem67" />
+    <configuration name="MainProblem23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem23.MainProblem23" />
       <module name="Project-Euler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Problem67.*" />
+          <option name="PATTERN" value="Problem23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,11 +391,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainProblem23" />
         <item itemvalue="Application.MainProblem22" />
         <item itemvalue="Application.MainProblem21" />
         <item itemvalue="Application.MainProblem20" />
         <item itemvalue="Application.MainProblem19" />
-        <item itemvalue="Application.MainProblem67" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +448,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38699362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.39978677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,8 +457,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33152762" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33152762" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -522,64 +547,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Problem22/MainProblem22.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Problem22/MainProblem22.java</url>
           <line>19</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Problem23/isAbundant.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Problem23/isAbundant.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Problem11/getMaxOfXHorizontalNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Problem11/GetProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Problem11/ReaderCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Problem12.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/explanation.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Problem11/MainProblem11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Problem12/expanation.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -619,13 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="58" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/isDevisorLong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -900,6 +882,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Problem22/names.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/isDevisorLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Problem23/explanation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="101" selection-start-line="6" selection-start-column="101" selection-end-line="6" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utilities/isEvenLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Problem23/isNotSumOf2Abundants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Problem23/isAbundant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Problem21/MainProblem21.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -910,17 +947,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Problem22/names.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Problem22/MainProblem22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
+        <state relative-caret-position="442">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Problem22/MainProblem22.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Problem23/MainProblem23.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
