@@ -17,19 +17,8 @@ public class isAbundant implements LongPredicate {
     public boolean test(long value) {
         if(value%2!=0&&value%5!=0)
             return false;
-        if (abundants.stream().anyMatch(abundant -> {
-            if (value % abundant == 0)
-                return true;
-            return false;
-        }))
+        if(value%12==0)
             return true;
-//        System.out.println("\t"+abundants.size());
-        long sumOfDevisors = LongStream.range(1, value).filter(new isDevisorLong(value)).sum();
-        if (sumOfDevisors > value){
-            abundants.add(value);
-            return true;
-        }else{
-            return false;
-        }
+        return LongStream.range(1, value).filter(new isDevisorLong(value)).sum()>value;
     }
 }
